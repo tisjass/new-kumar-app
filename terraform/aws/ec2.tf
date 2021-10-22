@@ -12,7 +12,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = var.hw
 
   tags = {
-    Name = "gagandeep-aws-ec2-instance1"
+    Name = "kumar-aws-ec2-instance1"
     Env = "Dev"
   }
 }
