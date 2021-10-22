@@ -4,7 +4,7 @@ variable "os" {
 }
 
 variable "hw" {
-default = "t2.micro"
+default = "t2.nano"
 }
 
 resource "aws_instance" "myawsserver" {
